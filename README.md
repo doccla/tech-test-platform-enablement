@@ -56,8 +56,6 @@ Standard `npm` and `docker` commands will do the trick - nothing complex:
 | `docker build -t doccla:platform-test .`          | Build the docker container                                             |
 | `docker run -d -p 8080:3000 doccla:platform-test` | Run the container, surfacing on http://localhost:8080/                |
 
-**Owner**: Terry Brown (terry@doccla.com)
+**Owner**: @[mhuxtable](https://github.com/mhuxtable) (matt [~at~] doccla [~dot~] com)
+
 Though please contact anyone in the product/infrastructure team if you need anything.
-
-
-
