@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import logo from './logo.svg';
 
 class App extends React.Component {
   constructor() {
@@ -30,7 +31,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-        <img src="logo.svg" className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <table className="trial-data">
           <thead>
             <tr><th>Hospital</th>
